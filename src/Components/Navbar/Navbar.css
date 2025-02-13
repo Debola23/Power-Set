@@ -1,0 +1,39 @@
+#membership2{
+  display: none;
+ }
+ #menu2{
+  display: none;
+ }
+
+@media (max-width: 1000px) {
+   #login{
+    display: none;
+   }
+  }
+  @media (max-width: 920px) {
+    .mobilelist{
+      display: none;
+    }
+    #menu1 {
+      display: inline-block;
+    }
+  }
+  @media (max-width: 520px) {
+    #membership1{
+      display: none;
+    }
+    #membership2{
+      display:block ;
+    }
+    #menu1 {
+      display: none;
+    }
+    #menu2 {
+      display: inline-block;
+    }
+    p{
+      font-size: 15px;
+      text-align: initial;
+    }
+   
+  }

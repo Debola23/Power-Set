@@ -1,0 +1,38 @@
+.offer{
+    margin-top: 6rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+
+
+
+
+
+
+@media (max-width: 1040px) {
+
+}
+
+@media (max-width: 840px) {
+    .offer {
+        margin-top: 6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+      #h1{
+        font-size: 3rem;
+       }
+}
+@media (max-width: 440px) {
+    .offer {
+        margin-top: 6rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+      }
+   #h1{
+    font-size: 2rem;
+    text-wrap: nowrap;
+   }
+ 
+}

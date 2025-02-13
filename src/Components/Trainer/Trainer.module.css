@@ -1,0 +1,167 @@
+#herobg{
+    background-image: url("/Images/personaltrainer2c.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 54rem;
+}
+
+.trainerText{
+    color: white;
+    margin-top: 14rem;
+    text-align: center;
+}
+.trainerText h2 , h3{
+    font-weight: 600;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.tIntro{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 6rem;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+}
+.left{ 
+        grid-area:  2 / 1 / 3 / 2;
+        width: 40rem; 
+        text-align: initial;
+}
+.left h2{
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-bottom: 1.rem;
+}
+.left p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #ab4000;
+}
+#gap{
+    margin-top: 2.5rem;
+    font-size: 1rem;
+}
+#gap span{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+}
+.list{
+    list-style: inside;
+    column-count: 2;
+}
+.right { 
+    grid-area: 2 / 5 / 3 / 6;
+    width: 40rem; 
+} 
+.tImg{
+    width:100%;
+    height: auto;
+}
+#habits{
+    padding: 6rem;
+    text-align: center;
+}
+#habitsText{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap:0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    justify-content: center;
+}
+#c{
+    margin-top: 4rem;
+}
+.form{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+#formId{
+    background: linear-gradient(45deg, #FFFFFF, #EFE2CE, #D5ECEB, #E4E4E4, #F6FFFF);
+    background-size: 270% 260%;
+    animation: gradientAnimation 6s ease infinite;
+    height: auto;
+}
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+
+
+@media (min-width: 1024px) {
+    .tIntro {
+      display: grid;
+      grid-template-columns: 3fr 2fr; /* Text takes 3 parts, Image takes 2 */
+      gap: 3rem;
+    }
+    #tImg{
+        margin-top: 2.2rem;
+    }
+  }
+  @media (max-width: 868px) {
+    .th2{
+        text-align: initial;
+    }
+    .tp{
+        text-align: initial;
+    }
+  }
+  @media (max-width: 768px) {
+    .tIntro {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      padding: 2rem;
+    }
+    .right img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+  
+
+@media (max-width: 720px) {
+    .trainerText h2 , h3{
+        font-size: 3.5rem; 
+    }
+   
+}
+@media (max-width: 520px) {
+    .trainerText h2 , h3{
+        font-size: 2rem;
+        
+    }
+    #habits{
+        padding-top: 6rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+    }
+    #herobg{
+        background-image: url("/Images/trainerbg.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 44rem;
+    }
+    .form{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #question{
+        flex-direction: column;
+     }
+     #q1 , #q2{
+         margin-bottom: 1.5rem;
+     }
+}

@@ -1,0 +1,38 @@
+#words{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: 3rem;
+}
+.inp{
+  outline: #B84D02;
+  border: 2px solid #B84D02;
+  border-radius: 5px;
+}
+#modalbg{
+  z-index: 999;
+  background: #d7d4d2;
+}
+#modal{
+  padding: 2rem;
+  width: 22rem;
+}
+@media (max-width: 500px) {
+   .step-content-default {
+      position: relative;
+      overflow: hidden;
+      height: 155px;
+    } 
+    #place{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+@media (max-width: 500px) {
+    #words {
+      margin-top: 4rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+   
+ 
+  }

@@ -1,0 +1,127 @@
+.poster{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+#pp{
+  color: gray;
+  font-weight: 600;
+  padding-right: 10px;
+}
+#rBtnn{
+    align-self: center;
+}
+#h1p{
+    font-weight: 700
+   }
+.cssbuttons-io-button {
+  background: rgb(184, 77, 2);
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em rgb(184, 77, 2);
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+  width: 12rem;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em rgb(184, 77, 2);
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: rgb(184, 77, 2);
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+
+
+
+@media (max-width: 1040px) {
+  .poster {
+    margin-top: 6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (max-width: 840px) {
+  #pp{
+    padding: 0;
+  }
+    .poster {
+        margin-top: 6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+      #h1p{
+        font-size: 3rem;
+        font-weight: 800
+       }
+       .cssbuttons-io-button{
+        justify-content: center;
+        align-self: center;
+       }
+}
+@media (max-width: 800px) {
+  .poster {
+    margin-top: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 440px) {
+    .poster {
+      margin-top: 6rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+     #h1p{
+    font-size: 1.775rem;
+    line-height: 2.25rem;
+    text-wrap: inherit;
+     }
+     #pp{
+      font-size: 1rem;
+     
+     }
+     #rBtnn{
+      align-self: center;
+      justify-content: center;
+     }
+   
+  }
